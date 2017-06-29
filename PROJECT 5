@@ -1,0 +1,34 @@
+Project 12
+
+
+1- what is UID?  User ID----user ID of the new account
+2- what is GID ? Group ID---Name or ID of the primary group of the new account
+3- what command do you type to check the UID of an account?—ID
+
+4- what command do you type to check what group an account belongs to?  
+Cat /etc/group
+
+5- what command would you type to check a user's account component?  
+
+Cat/etc/passwd
+
+6- the -g of useradd command is used to add a user to a primary group. what is the option used to add a user to a subgroup or suplementary group?
+
+The command useradd –G will show the supplementary group
+
+7- how do you get help on a linux server ?to get help you type the command and then next to the command you add –help or you type (man) before the particular command
+
+8- from a server prompt , how can you connect remotely to another server if you dont have access to putty.
+
+--you can connect remotely to another server through WinSCP
+
+9- create a file on your server called yourname, then use scp to copy it to my server 
+
+SCP Daryl class3@96.245.84.63:/tmp
+
+( 96.245.84.63 , username= class3 password= school1 ) put it in /tmp
+
+10- download the redhat iso image from site ftp://96.245.84.63/software (login: class3 , password= school1 the iso image is rwd-rhel64i386.iso)
+
+11- Watch the video on redhat installation in your video folder and then install redhat in your virtualbox.
+
